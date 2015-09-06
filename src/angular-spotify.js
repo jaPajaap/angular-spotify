@@ -405,8 +405,7 @@
             };
 
             var url = 'https://accounts.spotify.com/authorize?' + this.toQueryString(params);
-            $window.location = url;
-            return;
+            $window.location.href = url;
           }
         };
 
